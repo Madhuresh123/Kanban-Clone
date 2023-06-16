@@ -1,0 +1,69 @@
+.header{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    border-bottom: 1px solid #DBDBDB;
+
+}
+
+.header_left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 18rem;
+    height: 10vh;
+    background-color: white;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+
+}
+
+.searchBar{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    width: 26.063rem;
+height: 2.75rem;
+background: #F5F5F5;
+border-radius: 6px;
+
+}
+
+.searchIcon{
+    margin-left: 1rem;
+
+}
+.searchBar >input{
+    margin-left: 1.5rem;
+    width: 217px;
+    height: 24px;
+    border: none;
+    outline: none;
+    background: #F5F5F5;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #787486;
+}
+
+.profile_pic{
+    width: 2rem;
+    height: 2rem;
+    background-color: #787486;
+    border-radius: 3rem;
+}
+
+.header_profile{
+    display: flex;
+}
