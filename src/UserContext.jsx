@@ -1,11 +1,13 @@
-import {createContext, useState} from "react";
+import React, { useState} from "react";
 
-export const UserContext = createContext({});
+export const UserContext = React.createContext({});
 
 export function UserContextProvider({children}) {
-  const [userInfo,setUserInfo] = useState({});
+
+  const [isClicked, setIsClicked] = useState(false)
+
   return (
-    <UserContext.Provider value={{userInfo,setUserInfo}}>
+    <UserContext.Provider value={{isClicked, setIsClicked}}>
       {children}
     </UserContext.Provider>
   );

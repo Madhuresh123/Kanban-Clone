@@ -1,12 +1,21 @@
 import React from "react";
 import "../styles/todo.css";
 import Card from "./Card";
+
+
 function Todo(props) {
+  const { cards } = props;
+
+
+
   return (
     <div className="todo">
       <div className="todo_title">
         <div className="todo_title_left">
-          <div className="point" style={{ marginRight: "1rem", backgroundColor:props.color }}></div>
+          <div
+            className="point"
+            style={{ marginRight: "1rem", backgroundColor: props.color }}
+          ></div>
           <h2>{props.title}</h2>
           <div className="point2" style={{ marginRight: "1rem" }}>
             {props.card}
@@ -16,6 +25,7 @@ function Todo(props) {
         <div>
           <svg
             width="24"
+            
             height="24"
             viewBox="0 0 24 24"
             fill="none"
@@ -34,34 +44,28 @@ function Todo(props) {
         </div>
       </div>
 
-      <hr color={props.color} size="3" width="80%" style={{ marginLeft: "2rem" }} />
-
-      <Card
-        load="Low"
-        title="Brainstorming"
-        desc={`Brainstorming brings team members' diverse experience into play.`}
-        comment="12"
-        files="0"
-        profile="3"
+      <hr
+        color={props.color}
+        size="3"
+        width="80%"
+        style={{ marginLeft: "2rem" }}
       />
 
-<Card
-        load="High"
-        title="Research"
-        desc={`User research helps you to create an optimal product for users.`}
-        comment="12"
-        files="0"
-        profile="3"
-      />
+      {cards?.map((item, index) => (
+            <Card
+            item={item}
+            key={item.id}
+            index={index}
+              load={item.load}
+              title={item.title}
+              desc={item.desc}
+              comment={item.comment}
+              files={item.files}
+              profile={item.profile}
+              img={item.img}
+            />
+        ) )}
 
-<Card
-        load="High"
-        title="Wireframes"
-        desc={`Low fidelity wireframes include the most basic content and visuals.`}
-        comment="12"
-        files="0"
-        profile="3"
-      />
 
     </div>
   );

@@ -10,8 +10,6 @@ function Home() {
     <div style={{flex:'1'}}>
     <Menu/>
     </div>  
-
-
     <div style={{flex:'9'}}>
     <Header/>
     <ProjectSection/>
