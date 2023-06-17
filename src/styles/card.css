@@ -1,0 +1,118 @@
+.card{
+    width: 314px;
+height: 177px;
+
+background: #FFFFFF;
+border-radius: 16px;
+margin: 1.5rem 1rem 1rem 1rem;
+}
+
+.card_tag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem 5px 1rem;
+}
+
+.load{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 23px;
+    background: rgba(223, 168, 116, 0.2);
+    border-radius: 4px;
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #D58D49;
+}
+
+.card_option > p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+color: #0D062D;
+cursor: pointer;
+}
+
+.card_content{
+    padding: 0 1rem 1rem 1rem;
+    margin: 0;
+}
+
+.card_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment, .file {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.comment > p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #787486;
+}
+
+.comment > svg{
+    margin-right: 5px;
+}
+
+.file{
+    margin-right: 1rem;
+}
+
+
+.file > svg{
+    margin-right: 5px;
+}
+
+.file > p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #787486;
+}
+
+.card_people{
+    display: flex;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.profile{
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    background-color: gainsboro;
+}
+
+.profile > img{
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+}

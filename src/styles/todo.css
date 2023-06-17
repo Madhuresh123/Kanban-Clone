@@ -1,0 +1,51 @@
+.todo{
+width: 355px;
+height: auto;
+background: #F5F5F5;
+border-radius: 16px 16px 0px 0px;
+margin: 1rem;
+overflow-y: auto; 
+
+}
+
+.point{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.point2{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #E0E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    box-sizing: border-box;
+    margin-left: 1rem;
+    font-weight: 500;
+    color: #625F6D;
+    font-family: 'Inter';
+    font-style: normal;
+
+}
+
+.todo_title{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.todo_title_left{
+    display: flex;
+    align-items: center;
+}
+
+
+.todo_section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
