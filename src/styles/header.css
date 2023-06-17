@@ -57,10 +57,9 @@ line-height: 17px;
 color: #787486;
 }
 
-.profile_pic{
+.profile_pic > img {
     width: 2rem;
     height: 2rem;
-    background-color: #787486;
     border-radius: 3rem;
 }
 

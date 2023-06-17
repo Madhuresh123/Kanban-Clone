@@ -51,13 +51,13 @@ export default function Card(props) {
           <div className="card_bottom">
             <div className="card_people">
               <div className="profile">
-                <img src="pro.png" alt="" />
+                <img src="profile2.png" alt="" />
               </div>
               <div className="profile">
-                <img src="pro.png" alt="" />
+                <img src="profile5.png" alt="" />
               </div>
               <div className="profile">
-                <img src="pro.png" alt="" />
+                <img src="profile4.png" alt="" />
               </div>
             </div>
 

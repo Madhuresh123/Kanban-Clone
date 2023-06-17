@@ -1,11 +1,18 @@
 .card{
-    width: 314px;
+    width: 314px auto;
 height: 177px auto;
-
 background: #FFFFFF;
 border-radius: 16px;
 margin: 1.5rem 1rem 1rem 1rem;
 cursor: pointer;
+padding-bottom: 1rem;
+transition: transform 0.3s ease;
+
+}
+
+.card:hover{
+    transform: scale(1.05);
+
 }
 
 .card_tag{

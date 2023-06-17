@@ -62,3 +62,8 @@ color: #0D062D;
     align-items: center;
     margin: 1rem 2rem;
 }
+
+.todo_section{
+    display: flex;
+    justify-content: center;
+}
