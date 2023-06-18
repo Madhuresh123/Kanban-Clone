@@ -13,7 +13,7 @@ function Menu() {
   }
 
   return (
-    <div className={`${isSlideClicked ? "slide-left" : "" } `}>
+    <div className='menu'>
         <div className='menu_top'>
 
 <div style={{display:'flex', alignItems:'center'}}>
