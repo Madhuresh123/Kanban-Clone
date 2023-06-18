@@ -1,10 +1,33 @@
 .menu{
     width: 18rem;
-    height: 120vh;
+    height: 100vh;
     border: 1px solid #DBDBDB;
-    transition: transform 0.3s ease;
+    overflow-y: scroll;
+    position: sticky; /* or position: sticky; */
+    top: 0; /* adjust as needed */
+    left: 0; /* adjust as needed */
+    z-index: 999; /* adjust as needed */
 }
 
+@media (max-width: 768px) {
+    .menu {
+      display: none;
+    }
+  }
+
+.menu::-webkit-scrollbar {
+    width: 0.5rem; /* Adjust the width as needed */
+    background-color: transparent; /* Set the background color */
+  }
+  
+  .menu::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Set the thumb color */
+  }
+  
+  .menu::-webkit-scrollbar-track {
+    background-color: transparent; /* Set the track color */
+    border-right: none; /* Hide the right side border */
+  }
 
 .menu_options{
        padding: 10px 0;
@@ -18,7 +41,7 @@
     width: auto;
     height: 10vh;
     background-color: white;
-    border: 1px solid #DBDBDB;
+    border-bottom: 1px solid #DBDBDB;
 }
 
 .menu_option{
@@ -32,7 +55,7 @@
     font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
-font-size: 14px;
+font-size: 16px;
 line-height: 19px;
 
 color: #787486;
@@ -77,7 +100,7 @@ color: #787486;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
-font-size: 14px;
+font-size: 16px;
 line-height: 19px;
 color: #787486;
 }

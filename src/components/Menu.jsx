@@ -103,7 +103,7 @@ function Menu() {
 <div className='menu_projects'> 
 <div className='menu_projects_title'>
     <p style={{marginLeft:'10px'}}>MY PROJECTS</p>
-    <svg style={{marginRight:'1.2rem'}} width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg style={{marginRight:'0.6rem'}} width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M5.33334 8H10.6667" stroke="#787486" strokeLinecap="round" strokeLinejoin="round"/>
 <path d="M8 10.6667V5.33333" stroke="#787486" strokeLinecap="round" strokeLinejoin="round"/>
 <path d="M6.00001 14.6667H10C13.3333 14.6667 14.6667 13.3333 14.6667 10V6C14.6667 2.66667 13.3333 1.33333 10 1.33333H6.00001C2.66668 1.33333 1.33334 2.66667 1.33334 6V10C1.33334 13.3333 2.66668 14.6667 6.00001 14.6667Z" stroke="#787486" strokeLinecap="round" strokeLinejoin="round"/>

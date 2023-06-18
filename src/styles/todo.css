@@ -1,13 +1,23 @@
 .todo{
+    display: flex;
+    flex-direction: column;
 width: 355px;
-height: auto;
+height: 90vh auto;
 background: #F5F5F5;
 border-radius: 16px;
 margin: 1rem;
 border: none;
 outline: none;
 padding-bottom: 1rem;
+
 }
+
+@media (max-width: 768px) {
+    .todo{
+        width: 455px;
+    }
+  }
+
 
 
 .point{
@@ -42,6 +52,16 @@ padding-bottom: 1rem;
 .todo_title_left{
     display: flex;
     align-items: center;
+}
+
+.todo_title_left > h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #0D062D;
 }
 
 

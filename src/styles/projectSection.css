@@ -5,6 +5,19 @@
     margin: 2rem 3.5rem 1rem 3.5rem;
 }
 
+@media (max-width: 768px) {
+    .title-section {
+      width: 768px auto;
+    }
+    .title-section-right{
+        display: none !important;
+    }
+    .filter-section-right{
+        display: none !important;
+    }
+  }
+
+
 .title-section-left{
     display: flex;
     align-items: center;
@@ -14,6 +27,20 @@
     font-family: 'Inter';
 font-style: normal;
 font-weight: 600;
+line-height: 56px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #0D062D;
+
+}
+
+.title-section-left > h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 46px;
 line-height: 56px;
 /* identical to box height */
 
@@ -35,7 +62,7 @@ color: #0D062D;
     justify-content: center;
     width: 7.625rem;
     height: 2.5rem;
-    border: 1px solid #787486;
+    /* border: 1px solid #787486; */
     border-radius: 6px;
     padding: 0 10px;
     margin-right: 1rem;
