@@ -43,17 +43,21 @@ export default function Card(props) {
             <h2>{props.title}</h2>
             <p>{props.desc}</p>
             {props.img && (
-              <img className="content_img" src={props.img} alt="" />
+              <img className="content_img" src={props.img} alt="img" />
             )}
           </div>
 
           <div className="card_bottom">
+
+            <div className="card_bottom_left">
             <div className="card_people">
               <div className="profile">
                 <img src={props.partImg} alt="" />
               </div>
             </div>
+            </div>
 
+            <div className="card_bottom_right">
             <div className="comment">
               <svg
                 width="16"
@@ -113,6 +117,10 @@ export default function Card(props) {
 
               <p>{props.files} file</p>
             </div>
+            </div>
+
+
+            
           </div>
         </div>
         </>

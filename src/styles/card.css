@@ -92,6 +92,10 @@ color: #787486;
     justify-content: space-between;
 }
 
+.card_bottom_right{
+    display: flex;
+}
+
 .comment, .file {
     display: flex;
     align-items: center;
@@ -99,7 +103,7 @@ color: #787486;
     cursor: pointer;
 }
 .comment{
-    margin-left: 5rem;
+    margin-right: 1rem;
 }
 .comment > p{
     font-family: 'Inter';
@@ -141,13 +145,6 @@ color: #787486;
     display: flex;
     margin-left: 1rem;
     cursor: pointer;
-}
-
-.profile{
-    width: 24px;
-    height: 24px;
-    border-radius: 24px;
-    background-color: gainsboro;
 }
 
 .profile > img{

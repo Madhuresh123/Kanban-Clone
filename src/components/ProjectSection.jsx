@@ -62,9 +62,6 @@ function ProjectSection() {
       partImg: '/part3.png',
       loadBg: '#DFA87433',
       loadColor: '#D58D49',
-
-
-
     },
     {
       id: "5",
@@ -92,9 +89,6 @@ function ProjectSection() {
       partImg: '/part2.png',
       loadBg: '#83C29D33',
       loadColor: '#68B266',
-
-
-
     },
     {
       id: "7",
@@ -107,7 +101,6 @@ function ProjectSection() {
       partImg: '/part1.png',
       loadBg: '#83C29D33',
       loadColor: '#68B266',
-
     },
   ];
 
