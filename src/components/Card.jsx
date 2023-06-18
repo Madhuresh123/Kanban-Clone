@@ -22,10 +22,9 @@ export default function Card(props) {
     
     <Draggable key={item.id} draggableId={item.id} index={index} setIsClicked={isClicked}
     >  
-      {(provided) => (
-
-
-        <div className="card" ref={provided.innerRef}
+      {(provided, snapshot) => (
+      <>
+        <div className={`card ${snapshot.isDragging ? "drag" : ''}`} ref={provided.innerRef}
         {...provided.draggableProps}
         {...provided.dragHandleProps}
         onMouseDown={handleMouseDown}
@@ -116,6 +115,7 @@ export default function Card(props) {
             </div>
           </div>
         </div>
+        </>
       )}
         
         </Draggable>

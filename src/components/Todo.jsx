@@ -6,8 +6,6 @@ import Card from "./Card";
 function Todo(props) {
   const { cards } = props;
 
-
-
   return (
     <div className="todo">
       <div className="todo_title">

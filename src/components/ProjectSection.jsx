@@ -6,6 +6,8 @@ import {UserContext} from "../UserContext";
 
 
 function ProjectSection() {
+
+ 
   const arr1 = [
     {
       id: "1",
@@ -48,7 +50,8 @@ function ProjectSection() {
 
     }
   ]
-   const arr2 = [ {
+   const arr2 = [ 
+    {
       id: "4",
       load: "Low",
       title: "Onboarding Illustrations",
@@ -74,8 +77,6 @@ function ProjectSection() {
       partImg: 'profile4.png',
       loadBg: '#DFA87433',
       loadColor: '#D58D49',
-
-
     }
   ]
    
@@ -110,7 +111,6 @@ function ProjectSection() {
     },
   ];
 
-  // const [cards, setCards] = useState(arr1);
 
   const [todo, setTodo] = useState(arr1);
   const [onProgress, setOnProgress] = useState(arr2);

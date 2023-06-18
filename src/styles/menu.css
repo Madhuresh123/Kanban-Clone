@@ -2,6 +2,14 @@
     width: 18rem;
     height: 120vh;
     border: 1px solid #DBDBDB;
+    transition: transform 0.3s ease;
+
+}
+
+.slide-left{
+    display: none;
+    transform: translateX(-100%);
+
 }
 
 .menu_options{

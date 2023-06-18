@@ -1,14 +1,14 @@
 .todo{
 width: 355px;
-height: 10rem auto;
+height: auto;
 background: #F5F5F5;
 border-radius: 16px;
 margin: 1rem;
 border: none;
 outline: none;
 padding-bottom: 1rem;
-
 }
+
 
 .point{
     width: 10px;
@@ -31,7 +31,6 @@ padding-bottom: 1rem;
     color: #625F6D;
     font-family: 'Inter';
     font-style: normal;
-
 }
 
 .todo_title{
