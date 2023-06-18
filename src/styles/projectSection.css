@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 2rem 2rem 1rem 2rem;
+    margin: 2rem 3.5rem 1rem 3.5rem;
 }
 
 .title-section-left{
@@ -52,6 +52,7 @@ color: #0D062D;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin: 0 0 0 1.5rem;
 
 }
 

@@ -275,7 +275,7 @@ function ProjectSection() {
 
         <div className="filter-section">
           <div className="filter-section-left">
-            <div className="filter_menu">
+            <div className="filter_menu" style={{cursor:'pointer'}}>
               <svg
                 width="16"
                 height="16"
@@ -331,7 +331,7 @@ function ProjectSection() {
               </select>
             </div>
 
-            <div className="filter_menu">
+            <div className="filter_menu" style={{cursor:'pointer'}}>
               <svg
                 width="16"
                 height="16"
@@ -379,17 +379,12 @@ function ProjectSection() {
 
               <select style={{ fontSize: "16px" }}>
                 <option >Today</option>
-                {(option) => (
-                  <option key={option} value={option}>
-                    {option}
-                  </option>
-                )}
               </select>
             </div>
           </div>
 
           <div className="filter-section-right">
-            <span style={{ margin: "0 1rem" }}>
+            <span style={{ margin: "0 1rem" , cursor:"pointer"  }}>
               <svg
                 width="97"
                 height="40"
@@ -428,7 +423,9 @@ function ProjectSection() {
               </svg>
             </span>
 
-            <span style={{ margin: "0 1rem" }}>
+            <hr style={{ borderTop: '1px solid #787486', height:'1.7rem', marginBottom: '3px', marginLeft:'2px'}}/>
+      
+            <span style={{ margin: "0 -1rem 0 1rem", cursor:"pointer" }}>
               <svg
                 width="40"
                 height="40"
@@ -448,7 +445,7 @@ function ProjectSection() {
               </svg>
             </span>
 
-            <span style={{ margin: "0 1rem" }}>
+            <span style={{ margin: "0 1rem", cursor:"pointer"  }}>
               <svg
                 style={{ margin: "0 1rem" }}
                 width="21"
