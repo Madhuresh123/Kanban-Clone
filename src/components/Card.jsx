@@ -32,7 +32,7 @@ export default function Card(props) {
         onMouseUp={handleMouseUp}
         >
           <div className="card_tag">
-            <div className="load" style={{ backgroundColor: props.loadColor }}>
+            <div className="load" style={{ backgroundColor: props.loadBg, color: props.loadColor }}>
               {props.load}
             </div>
             <div className="card_option">
@@ -51,13 +51,7 @@ export default function Card(props) {
           <div className="card_bottom">
             <div className="card_people">
               <div className="profile">
-                <img src="profile2.png" alt="" />
-              </div>
-              <div className="profile">
-                <img src="profile5.png" alt="" />
-              </div>
-              <div className="profile">
-                <img src="profile4.png" alt="" />
+                <img src={props.partImg} alt="" />
               </div>
             </div>
 

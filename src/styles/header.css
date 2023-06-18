@@ -1,5 +1,6 @@
 .header{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: 10vh;
     border-bottom: 1px solid #DBDBDB;

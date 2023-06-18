@@ -6,6 +6,7 @@
 
 .menu_options{
        padding: 10px 0;
+       margin-left: 8px;
 }
 
 .menu_top{
@@ -20,8 +21,20 @@
 
 .menu_option{
     display: flex;
-    margin: 1rem;
+    align-items: center;
+    margin: 1.5rem 1rem ;
     cursor: pointer;
+}
+
+.menu_option > p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+
+color: #787486;
+
 }
 
 .option_icon{
@@ -41,14 +54,42 @@
     padding-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+}
 
+.menu_projects_title > p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #787486;
+
+}
+
+.menu_projects_option_content > p{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+color: #787486;
+}
+
+.menu_projects_option_content > p:hover{
+    font-weight: bolder;
+    color: #000000;
 }
 
 .menu_projects_option{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 12.063rem;
+    width: 14.063rem;
     height: 2.438rem;
     margin: 1rem;
     cursor: pointer;
@@ -62,7 +103,7 @@
 
 .lamp_icon{
     position: relative;
-    left: 7.3rem;
+    left: 8.3rem;
     top:2rem;
     z-index: 9;
 }
@@ -73,7 +114,7 @@
 }
 .circle{
     position: relative;
-    left: 6rem;
+    left: 7rem;
     top: -1rem;
     width: 66px;
     height: 66px;
@@ -88,11 +129,11 @@
     align-items: center;  
 position: relative;
 top: -3rem;
-width: 12.875rem;
+width: 14.875rem;
 height: 10rem;
 background-color:rgb(247, 245, 245);
 border-radius: 16px;
-margin-left: 1.5rem;
+margin-left: 1rem;
 padding-top: 3rem;
 padding-left: 1rem;
 

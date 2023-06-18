@@ -1,6 +1,7 @@
 .title-section{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 2rem 2rem 1rem 2rem;
 }
 
@@ -50,6 +51,8 @@ color: #0D062D;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+
 }
 
 .filter-section-left{

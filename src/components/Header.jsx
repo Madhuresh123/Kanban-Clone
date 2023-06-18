@@ -16,7 +16,7 @@ function Header() {
       </div>
 
 
-    <div className='header_notification'>
+    <div className='header_notification' style={{marginLeft:'20rem'}}>
     <svg style={{marginRight:'1rem'}} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M8 2V5" stroke="#787486" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
 <path d="M16 2V5" stroke="#787486" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>

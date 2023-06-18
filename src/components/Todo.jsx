@@ -63,6 +63,9 @@ function Todo(props) {
               files={item.files}
               profile={item.profile}
               img={item.img}
+              partImg={item.partImg}
+              loadBg={item.loadBg}
+              loadColor={item.loadColor}
             />
         ) )}
 

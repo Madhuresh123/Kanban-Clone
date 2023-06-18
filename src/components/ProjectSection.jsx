@@ -15,6 +15,10 @@ function ProjectSection() {
       comment: "12",
       files: "0",
       profile: "3",
+      partImg: 'part1.png',
+      loadBg: '#DFA87433',
+      loadColor: '#D58D49',
+
     },
     {
       id: "2",
@@ -24,6 +28,11 @@ function ProjectSection() {
       comment: "10",
       files: "3",
       profile: "2",
+      partImg: 'part4.png',
+      loadBg: '#D8727D1A',
+      loadColor: '#D8727D',
+
+
     },
     {
       id: "3",
@@ -33,6 +42,10 @@ function ProjectSection() {
       comment: "12",
       files: "0",
       profile: "3",
+      partImg: 'part3.png',
+      loadBg: '#D8727D1A',
+      loadColor: '#D8727D',
+
     }
   ]
    const arr2 = [ {
@@ -43,6 +56,12 @@ function ProjectSection() {
       img: "flowers.png",
       files: "15",
       profile: "3",
+      partImg: 'part3.png',
+      loadBg: '#DFA87433',
+      loadColor: '#D58D49',
+
+
+
     },
     {
       id: "5",
@@ -52,6 +71,11 @@ function ProjectSection() {
       comment: "9",
       files: "10",
       profile: "1",
+      partImg: 'profile4.png',
+      loadBg: '#DFA87433',
+      loadColor: '#D58D49',
+
+
     }
   ]
    
@@ -64,6 +88,12 @@ function ProjectSection() {
       comment: "12",
       files: "15",
       profile: "2",
+      partImg: 'part2.png',
+      loadBg: '#83C29D33',
+      loadColor: '#68B266',
+
+
+
     },
     {
       id: "7",
@@ -73,6 +103,10 @@ function ProjectSection() {
       comment: "12",
       files: "15",
       profile: "3",
+      partImg: 'part1.png',
+      loadBg: '#83C29D33',
+      loadColor: '#68B266',
+
     },
   ];
 
@@ -212,6 +246,7 @@ function ProjectSection() {
               viewBox="0 0 18 18"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              style={{marginTop:'5px'}}
             >
               <path
                 d="M6 9H12"
@@ -464,7 +499,7 @@ function ProjectSection() {
           <Droppable droppableId="TodosList" key={isClicked ? "111" : "11"}>
             {(provided) => (
               <div ref={provided.innerRef} {...provided.droppableProps}>
-                <Todo cards={todo} title="To Do" color="#5030E5" card="4" key="111"/>
+                <Todo cards={todo} title="To Do" color="#5030E5" card="3" key="111"/>
                 {provided.placeholder}
               </div>
             )}
@@ -477,7 +512,7 @@ function ProjectSection() {
                   cards={onProgress}
                   title="On Progess"
                   color="#FFA500"
-                  card="4"
+                  card="2"
                   key='121'
                 />
                 {provided.placeholder}
@@ -492,7 +527,7 @@ function ProjectSection() {
                   cards={done}
                   title="Done"
                   color="#8BC48A"
-                  card="4"
+                  card="2"
                   key='131'
                 />
                 {provided.placeholder}
