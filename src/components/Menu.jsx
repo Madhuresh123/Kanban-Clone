@@ -23,7 +23,7 @@ function Menu() {
 <path opacity="0.4" d="M22 16C22 19.31 19.31 22 16 22C14.46 22 13.06 21.42 12 20.46C13.23 19.37 14 17.77 14 16C14 15.22 13.85 14.47 13.58 13.79C15.41 13.29 16.89 11.95 17.58 10.21C20.12 10.9 22 13.24 22 16Z" fill="#5030E5"/>
 </svg>
 
-<h2 > Project M.</h2>
+<h2 style={{fontWeight: '600' ,fontSize: '20px', marginLeft: '10px' }} > Project M.</h2>
 </div>
 
 <div style={{cursor:'pointer'}} onClick={handleSlideClick}>
