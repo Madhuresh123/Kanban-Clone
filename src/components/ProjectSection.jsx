@@ -5,7 +5,7 @@ import { DragDropContext, Droppable } from "react-beautiful-dnd";
 import {UserContext} from "../UserContext";
 
 
-function ProjectSection() {
+function ProjectSection(props) {
 
  
   const arr1 = [
@@ -167,7 +167,7 @@ function ProjectSection() {
       <div className="ProjectSection">
         <div className="title-section">
           <div className="title-section-left">
-            <h1 style={{ marginRight: "1rem" }}>Mobile App</h1>
+            <h1 style={{ marginRight: "1rem" }}>{props.title}</h1>
             <svg
               style={{ marginRight: "1rem" }}
               width="30"

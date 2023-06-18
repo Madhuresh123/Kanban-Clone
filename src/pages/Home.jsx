@@ -12,7 +12,7 @@ function Home() {
     </div>  
     <div style={{flex:'9'}}>
     <Header/>
-    <ProjectSection/>
+    <ProjectSection title='Mobile App' />
     </div>   
 
     </div>

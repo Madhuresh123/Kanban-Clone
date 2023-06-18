@@ -28,7 +28,7 @@
 .searchBar{
     display: flex;
     align-items: center;
-    margin-left: 2rem;
+    margin-left: 3rem;
     width: 26.063rem;
 height: 2.75rem;
 background: #F5F5F5;
@@ -66,4 +66,29 @@ color: #787486;
 
 .header_profile{
     display: flex;
+    margin-right: 3rem;
+}
+
+.name{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 19px;
+text-align: right;
+
+color: #0D062D;
+}
+
+.address{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: right;
+
+color: #787486;
 }

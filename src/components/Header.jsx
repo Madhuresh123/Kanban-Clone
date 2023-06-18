@@ -45,8 +45,8 @@ function Header() {
     <div className='header_profile'>
 
       <div style={{marginRight:'1rem'}}>
-      <p> Anima Agrawal</p>
-      <p> U.P, India</p>
+      <p className='name'> Anima Agrawal</p>
+      <p className='address'> U.P, India</p>
       </div>
       <div className='profile_pic' style={{marginRight:'1rem'}}><img src='profile1.png' alt='' /></div>
       <svg style={{marginRight:'1rem'}} width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
