@@ -69,12 +69,7 @@ color: #0D062D;
 
 .todo_section{
     display: flex;
-    justify-content: center;
+    margin-left: 2rem;
 }
 
-@media (max-width: 768px) {
-    .todo_section {
-      justify-content: flex-start;
-    }
-  }
 
