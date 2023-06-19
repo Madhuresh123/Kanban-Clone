@@ -126,9 +126,22 @@ color: #787486;
     border-radius: 6px;
 }
 
+.menu_msg{
+    position: relative;
+    z-index: 10;
+    top: -4rem;
+}
+
+.lamp_icon_glow{
+    position: relative;
+    left: 6rem;
+    top: 4.2rem;
+    z-index: 8;
+}
+
 .lamp_icon{
     position: relative;
-    left: 8.3rem;
+    left: 2rem;
     top:2rem;
     z-index: 9;
 }
