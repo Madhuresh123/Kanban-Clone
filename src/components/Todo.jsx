@@ -20,7 +20,7 @@ function Todo(props) {
           </div>
         </div>
 
-        {props.card === '3' && 
+        {props.card === 3 && 
         <div>
         <svg
           width="24"
